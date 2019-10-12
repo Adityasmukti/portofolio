@@ -7,11 +7,7 @@ class Contact extends CI_Controller {
     {
         $data['title']='Contact';
         
-		$this->load->view('header');
-		$this->load->view('sidebar');
-        $this->load->view('navbar',$data);
 		$this->load->view('contact',$data);
-		$this->load->view('footer');
     }
 
 }

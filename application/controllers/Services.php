@@ -6,11 +6,7 @@ class Services extends CI_Controller {
     public function index()
     {
         $data['title']='My Service';
-		$this->load->view('header');
-		$this->load->view('sidebar');
-        $this->load->view('navbar',$data);
-		$this->load->view('welcome');
-		$this->load->view('footer');
+		$this->load->view('services');
     }
 
 }
